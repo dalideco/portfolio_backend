@@ -1,0 +1,17 @@
+
+.images{
+    width: 100%;
+    margin: auto; 
+    margin-bottom: 50px;
+    height: 70vh;
+    border : $body-color solid 5px;
+    position:relative;
+    overflow:hidden;
+    .theImage{
+        position: absolute;
+        width: 100%;
+        height:100%;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+}

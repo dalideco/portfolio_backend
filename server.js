@@ -55,8 +55,10 @@ app.post('/send',async (req,res)=>{
         // Preview only available when sending through an Ethereal account
         console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
         // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+        res.send({message:'success'});
     }catch(err){
         console.log(err)
+        res.send({message:'failure! please try again later'})
     }
 })
 

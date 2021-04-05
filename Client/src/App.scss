@@ -1,0 +1,46 @@
+
+@import 'Sass/config';
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 20px
+}
+body{
+    min-height:100vh;
+    line-height:1.6em; 
+    position: relative; 
+    
+    font-family: 'Montserrat', sans-serif;
+    &::-webkit-scrollbar {
+        width: 8px;
+      }
+       
+    &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: $body-color;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    }
+}
+.my-body{
+    background: linear-gradient( $head-color 200px,  $body-color 50px);
+    padding-bottom:200px;
+    min-height:100vh;
+}
+.App{
+    position:relative;
+    top: 75px;
+    overflow-x:hidden;
+    
+}
+
+@import 'Sass/Header';
+@import 'Sass/Main';
+@import 'Sass/contact';
+@import 'Sass/images';

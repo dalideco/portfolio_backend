@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+$head-color: #f0a500;
+$body-color:#4a3933;
+$orange: #e45826;
+$blank: #e6d5b8;
+$font-family: 'Montserrat', sans-serif;
+
+@mixin contained(){
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
