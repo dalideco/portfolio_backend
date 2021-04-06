@@ -1,11 +1,14 @@
 .main {
+    box-shadow: 10px 64px 66px 6px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 10px 64px 66px 6px rgba(0,0,0,0.19);
+    -moz-box-shadow: 10px 64px 66px 6px rgba(0,0,0,0.19);
     position:relative;
     border: black solid 1px;
     @include contained();
     z-index:2;
     background:$blank;
     border-radius: 5px;
-    padding : 1rem 3rem;
+    padding : 0 3rem;
     line-height: 1.8em;
     animation: showMain 300ms ease-in-out 800ms forwards;
     transform-origin: top;
@@ -19,7 +22,7 @@
     & > div{
         position: absolute;
         width: 100%;
-        padding: 30px 40px;
+        padding: 40px 70px;
         margin-bottom: 20px;
     }
     

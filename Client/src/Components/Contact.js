@@ -49,8 +49,8 @@ function Contact(props) {
                     onChange={handleChange} value={name}></input>
                 <input name="email" type="email" placeholder="E-mail"
                     onChange={handleChange} value={email}></input>
-                <input name="description" type="text" placeholder="Description"
-                    onChange={handleChange} value={description}></input>
+                <textarea name="description" type="text" placeholder="Description"
+                    onChange={handleChange} value={description}></textarea>
                 <button onClick={handleSubmit}>Send</button>
             </form>
         </div>

@@ -21,6 +21,9 @@
         &:hover{
             border: #e45926d5 solid 10px;
         }
+        box-shadow: 10px 64px 66px 6px rgba(0,0,0,0.19);
+        -webkit-box-shadow: 10px 64px 66px 6px rgba(0,0,0,0.19);
+        -moz-box-shadow: 10px 64px 66px 6px rgba(0,0,0,0.19);
         animation : showImage 500ms ease-in-out;
     }
     ul{
@@ -39,6 +42,9 @@
         opacity: 0;
         
         li{
+            box-shadow: 10px 64px 66px 6px rgba(0,0,0,0.19);
+            -webkit-box-shadow: 10px 64px 66px 6px rgba(0,0,0,0.19);
+            -moz-box-shadow: 10px 64px 66px 6px rgba(0,0,0,0.19);
             list-style: none;
             margin-left: 1rem;
             padding: 10px 15px;
